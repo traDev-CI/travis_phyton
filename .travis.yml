@@ -2,3 +2,13 @@ language: python
 php:
 - 3.4
 script: python3 test_fruit.py
+
+#Safe List
+branches:
+  only:
+  -master
+
+#Blocklist
+branches:
+  except:
+  -opt
