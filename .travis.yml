@@ -6,11 +6,11 @@ script: python3 test_fruit.py
 #Safe List
 branches:
   only:
-  -master
-  -/[upt][a-q]*[t]\b//
+  - master
+  - /[upt][a-q]*[t]\b//
 
 #Blocklist
 branches:
   except:
-  -opt
+  - opt
 #Comments
