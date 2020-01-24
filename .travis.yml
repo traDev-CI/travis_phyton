@@ -1,7 +1,28 @@
 language: python
 php:
 - 3.4
-script: python3 test_fruit.py
+
+#installation
+  #before install
+
+  #install
+install:
+ - pip install -r requirements.txt
+
+#script
+  #before script
+  #script
+script:
+  - python3 test_fruit.py
+
+#after script
+  #after success
+  #after failure
+
+#deploy
+  #before deploy
+  #deploy
+  #after deploy
 
 #Safe List
 branches:
