@@ -14,6 +14,10 @@ install:
   #script
 script:
   - python3 test_fruit.py
+  - mkdir ShortStory
+  - cd ShortStory
+  - touch Alfredo
+  - echo HELLO
 
 #after script
   #after success
